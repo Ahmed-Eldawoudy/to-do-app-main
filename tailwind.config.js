@@ -30,20 +30,14 @@ export default {
       bold: "700",
     },
     backgroundImage: {
-      bgDesktopDark: `url('src/assets/images/bg-desktop-dark.jpg')`,
-      bgDesktopLight: `url('src/assets/images/bg-desktop-light.jpg')`,
-      bgMobileDark: `url('src/assets/images/bg-mobile-dark.jpg')`,
-      bgMobileLight: `url('src/assets/images/bg-mobile-light.jpg')`,
+      bgDesktopDark: `url('/bg-desktop-dark.jpg')`,
+      bgDesktopLight: `url('/bg-desktop-light.jpg')`,
+      bgMobileDark: `url('/bg-mobile-dark.jpg')`,
+      bgMobileLight: `url('/bg-mobile-light.jpg')`,
       gradient:
         "linear-gradient(to right, hsl(192, 100%, 67%),hsl(280, 87%, 65%))",
     },
     extend: {},
   },
   plugins: [],
-  safelist: [
-    "sm:dark:bg-bgDesktopDark",
-    "sm:bg-bgDesktopLight",
-    "dark:bg-darkTheme-veryDarkBlue",
-    "dark:bg-bgMobileDark",
-  ],
 };
