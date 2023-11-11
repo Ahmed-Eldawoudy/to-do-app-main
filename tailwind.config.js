@@ -40,4 +40,10 @@ export default {
     extend: {},
   },
   plugins: [],
+  safelist: [
+    "sm:dark:bg-bgDesktopDark",
+    "sm:bg-bgDesktopLight",
+    "dark:bg-darkTheme-veryDarkBlue",
+    "dark:bg-bgMobileDark",
+  ],
 };
